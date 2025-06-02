@@ -17,6 +17,9 @@
 		2A274CC22DED5E9E00132337 /* CoreData_insert_select_deleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A274CC12DED5E9E00132337 /* CoreData_insert_select_deleteTests.swift */; };
 		2A274CCC2DED5E9E00132337 /* CoreData_insert_select_deleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A274CCB2DED5E9E00132337 /* CoreData_insert_select_deleteUITests.swift */; };
 		2A274CCE2DED5E9E00132337 /* CoreData_insert_select_deleteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A274CCD2DED5E9E00132337 /* CoreData_insert_select_deleteUITestsLaunchTests.swift */; };
+		2A274CDB2DED5FDE00132337 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A274CDA2DED5FDE00132337 /* HomeVC.swift */; };
+		2A274CDD2DED651D00132337 /* ItemDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A274CDC2DED651D00132337 /* ItemDataVC.swift */; };
+		2A274CDF2DED654900132337 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A274CDE2DED654900132337 /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2A274CC72DED5E9E00132337 /* CoreData-insert-select-deleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreData-insert-select-deleteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A274CCB2DED5E9E00132337 /* CoreData_insert_select_deleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_insert_select_deleteUITests.swift; sourceTree = "<group>"; };
 		2A274CCD2DED5E9E00132337 /* CoreData_insert_select_deleteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_insert_select_deleteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A274CDA2DED5FDE00132337 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2A274CDC2DED651D00132337 /* ItemDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataVC.swift; sourceTree = "<group>"; };
+		2A274CDE2DED654900132337 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				2A274CA92DED5E9B00132337 /* SceneDelegate.swift */,
 				2A274CAB2DED5E9B00132337 /* ViewController.swift */,
 				2A274CAD2DED5E9B00132337 /* Main.storyboard */,
+				2A274CDE2DED654900132337 /* ItemTableViewCell.swift */,
+				2A274CDC2DED651D00132337 /* ItemDataVC.swift */,
+				2A274CDA2DED5FDE00132337 /* HomeVC.swift */,
 				2A274CB32DED5E9E00132337 /* Assets.xcassets */,
 				2A274CB52DED5E9E00132337 /* LaunchScreen.storyboard */,
 				2A274CB82DED5E9E00132337 /* Info.plist */,
@@ -262,8 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A274CAC2DED5E9B00132337 /* ViewController.swift in Sources */,
+				2A274CDD2DED651D00132337 /* ItemDataVC.swift in Sources */,
+				2A274CDB2DED5FDE00132337 /* HomeVC.swift in Sources */,
 				2A274CA82DED5E9B00132337 /* AppDelegate.swift in Sources */,
 				2A274CB22DED5E9B00132337 /* CoreData_insert_select_delete.xcdatamodeld in Sources */,
+				2A274CDF2DED654900132337 /* ItemTableViewCell.swift in Sources */,
 				2A274CAA2DED5E9B00132337 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
