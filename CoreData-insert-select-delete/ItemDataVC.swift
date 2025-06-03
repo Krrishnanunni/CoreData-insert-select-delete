@@ -53,8 +53,7 @@ extension ItemDataVC: UITableViewDelegate , UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "itemdata") as! ItemTableViewCell
         let record = martarray[indexPath.row]
-        cell.textLabel?.text = record.p_id! + " " + record.p_name! + " " + record.p_price!
-        
+        cell.textLabel?.text = record.p_name! 
         return cell
     }
     
